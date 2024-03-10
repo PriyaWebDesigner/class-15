@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.hero{
+    background-image: url('Images/Screenshot\ 2024-03-06\ 105919.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 300px;
+    color: aqua;
+    overflow: hidden;
+    /*overflow-y: hidden;
+    overflow-x: hidden; */
+    
+}
+
+
+.project{
+    margin-top: 5px;
+}
+.heading{
+    margin-top: 20px;
+    line-height: 1.4;
+    color:indianred;
+}
+
+
+.project-item{
+    float: left;
+    height: 200px;
+    width: 32.8%;
+    background-image: url(Images/bg.pic\,jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 3px;
+    overflow: hidden;
+
+
+}
+
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 5px;
+    float: left;
+}
+
+.footer-item{
+    width: 33.33%;
+    float: left;
+    margin-top: 5px;
+
+    
+}
+.link{
+    text-decoration: none;
+    display: block;
+    color: red;
+}
+.copy-right{
+    height: 30px;
+    width: 100%;
+    background-color: aqua;
+    float: left;
+}
+.copy-right-container{
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1200px){
+    .hero{
+        color: brown;
+    }
+    
+}
+
+@media screen and (max-width:1123px) {
+    .project-item{
+        width: 32.5%;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:720px) {
+    .project-item{
+        width: 32%;
+    }
+    
+}
+
+
+@media screen and (max-width:449px) {
+    .project-item{
+        width: 31.8%;
+    }
+    
+}
+
+ @media screen and (max-width:391px) {
+    .project-item{
+        width: 31.5%;
+        /* color:aquamarine;
+        font-size: 20px; */
+    }
+    
+} 
+
+@media screen and (max-width:327px) {
+    .project-item{
+        width: 48%;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:300px) {
+    .project-item{
+        width: 99.8%;
+    }
+    
+}
+
+@media screen and (max-width:561px) {
+    .hero{
+         height: 150px;
+      
+    }
+ 
+    
+}
+
+@media screen and (max-width:321px) {
+    .hero{
+         height: 100px;
+      
+    }
+ 
+    
+}
+
+@media screen and (max-width:507px) {
+    .footer-item{
+       font-size: 14px;
+       
+    }
+}
+
+@media screen and (max-width:444px) {
+    .footer-item{
+       font-size: 12px;
+       
+    }
+}
+
+@media screen and (max-width:381px) {
+    .footer-item{
+       font-size: 10px;
+       
+    }
+}
+
+@media screen and (max-width:360px) {
+    .footer-item{
+       width: 100%;
+       text-align: center;
+       
+       
+    }
+}
+
+
+
