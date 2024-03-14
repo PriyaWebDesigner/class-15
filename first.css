@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.hero{
+    height: 500px;
+    width: 100%;
+    background-image: url(Images/cover\ image\ 2.png) ;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.heading-1{
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.project{
+    margin-top: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-items{
+    height: 250px;
+    width: 32.9%;
+    background-image: url(Images/Screenshot\ 2024-03-06\ 105919.png);
+    float: left;
+    margin: 3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.footer{
+    margin-top: 3px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-items{
+    height: 150px;
+    width: 33.33%;
+    background-color: honeydew;
+    float: left;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    line-height: 1.4;
+
+}
+
+.copy-right{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    background-color: honeydew;
+
+}
+
+.copy-right-item{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.heading-2{
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.email{
+    margin-top: 8px;
+
+}
+
+@media screen and (max-width:1382px) {
+    .project-items {
+        width: 32.8%;
+   
+    }
+    
+}
+
+@media screen and (max-width:1123px) {
+    .project-items {
+        width: 32.7%;
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:1165px) {
+    .project-items {
+        width: 32.7%;
+        height: 230px;
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:945px) {
+    .project-items {
+        width: 32.6%;
+        height: 200px;
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:818px) {
+    .project-items {
+        width: 32.5%;
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:720px) {
+    .project-items {
+        width: 32.4%;
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:643px) {
+    .project-items {
+        width: 49%;
+        /* height: 200px; */
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:599px) {
+    .project-items {
+        width: 48.7%;
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:461px) {
+    .project-items {
+        width: 98%;
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:329px) {
+    .project-items {
+        width: 97%;
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:363px) {
+    .footer-items{
+           font-size: 13px;
+    }
+}
+
+@media screen and (max-width:344px) {
+    .footer-items{
+           width: 100%;
+           text-align: center;
+    }
+}
+
+@media screen and (max-width:330px) {
+   .hero{
+      height: 150px;
+   }
+}
